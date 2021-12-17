@@ -1,5 +1,8 @@
 {
   "multi_question_slide": {
-    "mainJumbotronDescription": "React는 어떻게 최적화를 하는걸까요?\n이 질문에 대한 답을 알고 싶으시면 지원해임마"
+    "mainJumbotronDescription": "예상 못 했던 면접 질문을 미리 받아볼 수 있다면?\n더블탭에서 면접 연습하고 피드백도 받아보세요."
+  },
+  "multi_question_slide2": {
+    "mainJumbotronDescription": "예상 못 했던 면접 질문을 미리 받아볼 수 있다면?\n더블탭에서 면접 연습하고 피드백도 받아보세요."
   }
 }
