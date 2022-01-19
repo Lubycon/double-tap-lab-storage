@@ -1,0 +1,64 @@
+[
+  {
+    "exampleCode": "const foo = {\n  bar: function () {\n    console.log(this);\n  },\n  baz: function () {\n    setTimeout(function () {\n      console.log(this);\n    }, 1000);\n  },\n};\n\nfoo.bar(); // 1\nfoo.baz(); // 2\n\nconst bar = foo.bar();\nbar(); // 3",
+    "codeLanguage": "js",
+    "question": "위 코드에서 콘솔 로그에 출력되는 `this`에 대한 설명으로 올바른 것은 무엇인가요?",
+    "options": [
+      "예시 1번의 출력은 `Window`이다.",
+      "예시 2번의 출력은 `foo 객체`이다.",
+      "예시 2번의 출력은 `Window`이다.",
+      "예시 3번의 출력은 `foo 객체`이다.",
+      "예시 3번의 출력은 `undefined`이다."
+    ],
+    "answer": "3"
+  },
+  {
+    "exampleCode": "const p1 = new Promise(function(resolve) {\n  setTimeout(() => resolve('하나'), 500);\n});\nconst p2 = new Promise(function(resolve) {\n  setTimeout(() => resolve('둘'), 100);\n});\n\nPromise.race([p1, p2]).then(function(value) {\n  console.log(value);\n});",
+    "codeLanguage": "js",
+    "question": "위 코드에서 마지막에 출력되는 것으로 올바른 것은 무엇인가요?",
+    "options": [
+      "하나, 둘",
+      "하나",
+      "둘, 하나",
+      "둘",
+      "undefined"
+    ],
+    "answer": "4"
+  } ,
+  {
+    "exampleCode": "const array = [{ index: 0 }, 1, '2'];\nconst array2 = [...array];\nconst array3 = array.map(v => v);\nconst array4 = array.sort((a, b) => a - b);\n\nconsole.log(array[0] === array2[0]); // 1\nconsole.log(array[1] === array2[1]); // 2\nconsole.log(array === array3); // 3\nconsole.log(array === array4); // 4",
+    "codeLanguage": "js",
+    "question": "위 코드에서 콘솔 로그에 출력되는 값에 대한 설명으로 올바른 것은 무엇인가요?",
+    "options": [
+      "예시 1번의 출력은 `true` 이다.",
+      "예시 2번의 출력은 `false` 이다.",
+      "예시 3번의 출력은 `true` 이다.",
+      "예시 4번의 출력은 `false` 이다."
+    ],
+    "answer": "1"
+  },
+  {
+    "exampleCode": ".box {\n  width: 200px;\n  padding: 10px;\n  margin: 0 15px;\n  border: 2px 5px;\n}",
+    "codeLanguage": "css",
+    "question": "위 코드에서 `.box`의 실제 보여지는 넓이는 몇 px 일까요?",
+    "options": [
+      "200px",
+      "230px",
+      "220px",
+      "260px",
+      "210px"
+    ],
+    "answer": "3"
+  },
+  {
+    "question": "다음 중 Webpack에 대한 설명으로 올바른 것은 무엇인가요?",
+    "options": [
+      "다음 중 Webpack에 대한 설명으로 올바른 것은 무엇인가요?",
+      "Webpack의 `loader`는 코드를 번들링한 이후에 적용된다.",
+      "타입스크립트를 컴파일 하기 위해서 Webpack의 도움을 받는 것은 불가능하다.",
+      "Wepback의 Entry Point는 반드시 하나만 존재해야 한다.",
+      "Webpack은 Configuration을 함수나 Promise로 내보내어 사용할 수 있는 기능을 지원한다."
+    ],
+    "answer": "5"
+  }
+]
