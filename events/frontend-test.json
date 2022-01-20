@@ -1,5 +1,27 @@
 [
   {
+    "question": "다음 중 HTML 태그와 의미가 맞지 않는 것은 무엇인가요?",
+    "options": [
+      "`dd`: Definition description",
+      "`a` : Anchor",
+      "`ul` : Unordered list",
+      "`p` : Paragraphs",
+      "`div` : Drive"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "다음 중 높은 수준의 웹 접근성을 유지하기 위한 마크업 방법으로 옳은 것은 무엇인가요?",
+    "options": [
+      "별 의미가 없는 이미지라면 `alt` 속성을 사용하지 않는다.",
+      "`div` 나 `span` 같이 포커스를 받을 수 없는 요소를 포커스를 받게 만드려면 `tabIndex` 속성에 `0` 값을 넣어주어야 한다.",
+      "`tabIndex` 속성을 `0` 으로 설정하면 문서 내에 있는 요소 중에서 가장 처음으로 포커스를 받을 수 있다.",
+      "`head` 내 `meta` 태그에 들어가는 정보는 웹 접근성과 관련이 없다.",
+      "여러 개의 단락을 표현할 때는 여러 개의 `p` 태그를 사용하는 것보다 `br` 을 사용하여 줄바꿈해주는 것이 더 의미적으로 맞는 표현이다."
+    ],
+    "answer": "3"
+  },
+  {
     "exampleCode": "const foo = {\n  bar: function () {\n    console.log(this);\n  },\n  baz: function () {\n    setTimeout(function () {\n      console.log(this);\n    }, 1000);\n  },\n};\n\nfoo.bar(); // 1\nfoo.baz(); // 2\n\nconst bar = foo.bar();\nbar(); // 3",
     "codeLanguage": "js",
     "question": "위 코드에서 콘솔 로그에 출력되는 `this`에 대한 설명으로 올바른 것은 무엇인가요?",
@@ -49,6 +71,41 @@
       "210px"
     ],
     "answer": "3"
+  },
+  {
+    "exampleCode": ".box {\n\tposition: absolute;\n  width: 100px;\n\theight: 20px;\n\tleft: 0;\n\tborder: 1px solid #000000;\n\twill-change: width, left;\n\ttransform: translateY(-3px);\n}",
+    "codeLanguage": "css",
+    "question": "위 코드에서 CSS 속성을 변경했을 때 Reflow가 발생하는 속성은 무엇일까요?",
+    "options": [
+      "`width`",
+      "`height`",
+      "`left`",
+      "`transform`",
+      "`border`"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "다음 중 HTML의 `script` 태그에 사용할 수 있는 `defer` 와 `async` 속성에 대한 설명으로 올바른 것은 무엇인가요?",
+    "options": [
+      "`defer` 나 `async` 속성을 사용하지 않으면, 스크립트 다운로드는 동기적으로, 실행은 백그라운드에서 비동기적으로 실행된다.",
+      "`defer` 속성을 사용하면 HTML 파싱이 모두 종료된 후 스크립트를 다운로드한다.",
+      "`defer` 속성을 사용하면 HTML 파싱이 모두 종료된 후 선언된 `script` 태그의 순서대로 스크립트를 순차 실행한다.",
+      "`async` 속성을 사용하면 스크립트를 비동기적으로 실행하여 HTML 파싱을 블록킹하지 않는다.",
+      "다운로드받아야 할 스크립트 파일의 사이즈가 크다면, 오히려 `async` 속성을 사용하지 않는 것이 초기 렌더링 속도를 높힐 수 있는 방법이다."
+    ],
+    "answer": "3"
+  },
+  {
+    "question": "다음 중 HTTP에 대한 설명으로 올바르지 않은 것은 무엇인가요?",
+    "options": [
+      "HTTP/1.1은 HOLB(Head Of Line Blocking)라는 단점을 가지고 있다.",
+      "HTTP/1.1과 HTTP/2 프로토콜은 한번의 요청이 끝나고 나면 상대방과의 연결을 종료한다.",
+      "HTTP/2 프로토콜은 중복되는 헤더를 생략하여 패킷의 용량을 줄이는 방식을 사용한다.",
+      "HTTP/1.1, HTTP/2, HTTP/3는 모두 TCP 기반의 프로토콜이다.",
+      "HTTPS는 대칭키 암호화와 비대칭키 암호화 방식 모두를 사용하여 패킷을 암호화한다."
+    ],
+    "answer": "4"
   },
   {
     "question": "다음 중 Webpack에 대한 설명으로 올바른 것은 무엇인가요?",
