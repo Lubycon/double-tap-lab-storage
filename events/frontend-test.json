@@ -73,7 +73,7 @@
     "answer": "3"
   },
   {
-    "exampleCode": ".box {\n\tposition: absolute;\n  width: 100px;\n\theight: 20px;\n\tleft: 0;\n\tborder: 1px solid #000000;\n\twill-change: width, left;\n\ttransform: translateY(-3px);\n}",
+    "exampleCode": ".box {\n\tposition: absolute;\n  width: 100px;\n\theight: 20px;\n\tleft: 0;\n\tborder: 1px solid #000000;\n\twill-change: width, left, border;\n\ttransform: translateY(-3px);\n}",
     "codeLanguage": "css",
     "question": "위 코드에서 CSS 속성을 변경했을 때 Reflow가 발생하는 속성은 무엇일까요?",
     "options": [
