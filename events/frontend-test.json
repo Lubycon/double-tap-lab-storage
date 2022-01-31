@@ -62,7 +62,7 @@
   {
     "exampleCode": ".box {\n  width: 200px;\n  padding: 10px;\n  margin: 0 15px;\n  border: 2px 5px;\n}",
     "codeLanguage": "css",
-    "question": "위 코드에서 `.box`의 실제 보여지는 넓이는 몇 px 일까요?",
+    "question": "위 코드에서 `.box`의 실제 보여지는 너비는 몇 px 일까요?",
     "options": [
       "200px",
       "230px",
