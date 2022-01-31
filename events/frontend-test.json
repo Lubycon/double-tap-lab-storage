@@ -22,7 +22,7 @@
     "answer": "2"
   },
   {
-    "exampleCode": "const foo = {\n  bar: function () {\n    console.log(this);\n  },\n  baz: function () {\n    setTimeout(function () {\n      console.log(this);\n    }, 1000);\n  },\n};\n\nfoo.bar(); // 1\nfoo.baz(); // 2\n\nconst bar = foo.bar();\nbar(); // 3",
+    "exampleCode": "const foo = {\n  bar: function () {\n    console.log(this);\n  },\n  baz: function () {\n    setTimeout(function () {\n      console.log(this);\n    }, 1000);\n  },\n};\n\nfoo.bar(); // 1\nfoo.baz(); // 2\n\nconst bar = foo.bar;\nbar(); // 3",
     "codeLanguage": "js",
     "question": "위 코드에서 콘솔 로그에 출력되는 `this`에 대한 설명으로 올바른 것은 무엇인가요?",
     "options": [
