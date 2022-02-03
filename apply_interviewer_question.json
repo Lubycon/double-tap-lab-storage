@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "question": "여러분을 알아볼 수 있는\n닉네임을 알려주세요",
+      "description": "한글로 적어주세요.",
+      "placeholder": "ex) 연쇄이직마",
+      "type": "text",
+      "value": "",
+      "required": true
+    },
+    {
+      "question": "지원하고자 하는\n포지션을 알려주세요",
+      "type": "select",
+      "value": "",
+      "options": ["프론트엔드 개발자"],
+      "required": true
+    },
+    {
+      "question": "주로 사용하시는\n언어나 프레임워크를 알려주세요",
+      "placeholder": "ex) React, TypeScript",
+      "type": "text",
+      "value": "",
+      "required": true
+    },
+    {
+      "question": "현재 어떤 회사에 다니고 있나요?",
+      "description":
+        "지원자님과 같은 회사에 다니고 있는 면접관은 매칭에서 제외해드려요.\n회사를 다니고 있지 않다면 다음으로 넘어가주세요",
+      "type": "text",
+      "value": "",
+      "required": true
+    },
+    {
+      "question": "관심있는 회사가 있다면\n알려주세요",
+      "description": "자유롭게 적어주시되, 없다면 무시하고 다음으로 넘어가주세요",
+      "placeholder": "ex) 네이버, 당근마켓, 토스",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "question": "이메일 주소를 알려주세요",
+      "description": "면접관과 매칭되면, 입력하신 이메일 주소로 면접관의 슬랙 초대링크를 보내드려요",
+      "placeholder": "somebody@example.com",
+      "type": "email",
+      "value": "",
+      "required": true
+    },
+    {
+      "question": "매칭결과를 연락받을 수 있는\n휴대폰 번호를 알려주세요",
+      "description": "매칭 결과는 문자로 전송되며, 면접이 종료되거나 매칭이 취소되는 순간 휴대폰 번호 정보를 파기합니다.",
+      "placeholder": "01012345678",
+      "type": "tel",
+      "value": "",
+      "required": true
+    }
+  ]
+}
