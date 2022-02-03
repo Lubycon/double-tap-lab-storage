@@ -3,7 +3,7 @@
     {
       "question": "현재 재직 중인 직장을 알려주세요",
       "description": "면접관님이 재직 중인 직장에 지원하고 싶어하는 지원자는 매칭을 하지 않아요",
-      "placeholder": "ex) 네이버, 당근마켓, 비바리퍼블리카",
+      "placeholder": "ex) 네이버, 토스 등",
       "type": "text",
       "value": "",
       "required": true
