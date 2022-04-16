@@ -1,0 +1,14 @@
+[
+  {
+    "name": "주니어(1~4년차)",
+    "value": "JUNIOR"
+  },
+  {
+    "name": "미들(5~8년차)",
+    "value": "MIDDLE"
+  },
+  {
+    "name": "시니어(9년차 이상)",
+    "value": "SENIOR"
+  }
+]
