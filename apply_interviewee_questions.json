@@ -12,7 +12,16 @@
       "question": "지원하고자 하는\n포지션을 알려주세요",
       "type": "select",
       "value": "",
-      "options": ["프론트엔드 개발자"],
+      "options": [
+        {
+          "name": "프론트엔드 개발자",
+          "value": "FRONTEND_ENGINEER"
+        },
+        {
+          "name": "백엔드 개발자",
+          "value": "FRONTEND_ENGINEER"
+        }
+      ],
       "required": true
     },
     {
@@ -24,8 +33,7 @@
     },
     {
       "question": "현재 어떤 회사에 다니고 있나요?",
-      "description":
-        "지원자님과 같은 회사에 다니고 있는 면접관은 매칭에서 제외해드려요.\n회사를 다니고 있지 않다면 다음으로 넘어가주세요",
+      "description": "지원자님과 같은 회사에 다니고 있는 면접관은 매칭에서 제외해드려요.\n회사를 다니고 있지 않다면 다음으로 넘어가주세요",
       "type": "text",
       "value": "",
       "required": true
